@@ -139,10 +139,6 @@ class _EditTaskPageState extends State<EditTaskPage> {
     if (_noteController.text.isEmpty){
       _noteController.text = note;
     }
-    /*if (isShowDate == true){
-       date = DateFormat.yMd().format(_selectedDate);
-       print("***$date*****");
-    }*/
     //update
       _taskController.updateTask(
           _titleController.text,
