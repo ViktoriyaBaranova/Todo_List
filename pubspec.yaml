@@ -40,8 +40,6 @@ dependencies:
   get:
   #преобразование формаьа времени
   intl:
-  #другой шрифт
-  google_fonts:
   #временная шкала выбора даты
   date_picker_timeline:
   #плагин для уведомлений
@@ -50,8 +48,6 @@ dependencies:
   flutter_native_timezone:
   #база данных
   sqflite:
-  #для анимации
-  flutter_staggered_animations:
 
 dev_dependencies:
   flutter_test:
