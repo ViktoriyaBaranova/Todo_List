@@ -87,47 +87,8 @@ class _AddTaskPageState extends State<AddTaskPage> {
                           ),
                         ),
                       ),
-                      //SizedBox(width: 12,),
-                    /* Expanded(
-                        child: MyInputField(
-                          title: "End Time",
-                          hint: _endTime,
-                          widget: IconButton(
-                              onPressed: (){
-                                _getTimeFromUser(isStartTime: false);
-                              },
-                              icon: Icon(
-                                  Icons.access_alarm,
-                                  color: Colors.grey)
-                          ),
-                        ),
-                      ),*/
                     ],
                   ),  //для поля Time
-
-
-                 /* MyInputField(
-                    title: "Remind",
-                    hint: "$_selectedRemind minutes early",
-                    widget: DropdownButton( //выпадающее меню
-                      icon: Icon(Icons.keyboard_arrow_down, color: Colors.grey,),
-                      iconSize: 32,
-                      elevation: 4, //высота значка
-                      style: subTitleStyle,
-                      underline: Container(height: 0,),
-                      onChanged: (String? newValue){
-                        setState(() {
-                          _selectedRemind = int.parse(newValue!);
-                        });
-                      },
-                      items: remindList.map<DropdownMenuItem<String>>((int value) { //элементы выпадающего меню
-                        return DropdownMenuItem<String>(
-                            value: value.toString(),
-                            child: Text(value.toString())
-                        );
-                      }).toList(),
-                    ),
-                  ), */ //для поля Remind
                   SizedBox(height: 18,),
 
                     Row(
