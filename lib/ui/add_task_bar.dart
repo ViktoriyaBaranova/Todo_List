@@ -22,7 +22,6 @@ class _AddTaskPageState extends State<AddTaskPage> {
   final TextEditingController _noteController = TextEditingController();
 
   DateTime _selectedDate = DateTime.now();
-  //String _endTime = "0:00 PM";
   String _startTime = DateFormat("hh:mm a").format(DateTime.now()).toString();
   String _selectedRepeat = "Нет";
   List<String> repeatList = ["Нет", "Да"];
